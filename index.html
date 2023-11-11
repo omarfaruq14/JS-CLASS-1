@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CLASS 1</title>
+
+
+
+
+
+
+
+    <script>
+       
+    //    document.write(50)
+    //    alert('wait')
+
+    // variable
+    // let name = `daniel` 
+    // let age = 20
+    // let sports = `cricket`
+
+
+    // console.log(`I am ` + name +  `. I am ` + age + ` years old`)
+    // console.log(`I am ${name}. I am ${age} years old. I love ${sports}`)
+
+
+    // *condition
+    let light = prompt(`How many light are there in your house?`)
+    let fan = prompt(`How many fans are there in your house?`)
+    let fridge = prompt(`How many fridge are there in your house?`)
+    let ac = prompt(`How many ac are there in your house?`)
+    
+
+
+
+    let lightWatt = light * 5
+    let fanWatt = fan * 10
+    let fridgeWatt = fridge * 50
+    let acWatt = ac * 80
+    
+
+
+    let totalWattUse = fanWatt + fridgeWatt + acWatt + lightWatt
+
+    let totalBill = totalWattUse * 300
+
+
+
+    document.write(` <h2> Total Electricity use : ${totalWattUse} Watt </h2>`) 
+    document.write(`<h2> Total Electric Bill : ${totalBill} Taka </h2>`)
+
+
+    if (totalBill > 2000) {
+        alert(`your bill is expensive`)
+    } else(alert(`your bill is responsive`))
+
+   
+
+   
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
